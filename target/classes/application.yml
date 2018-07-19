@@ -1,0 +1,11 @@
+ spring:
+  application:
+    name: mystore
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+  h2:
+    console:
+      enabled: true

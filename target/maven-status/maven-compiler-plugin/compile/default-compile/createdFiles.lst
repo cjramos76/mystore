@@ -1,0 +1,6 @@
+com\example\mystore\MystoreApplication.class
+com\example\mystore\service\ProductService.class
+com\example\mystore\repository\ProductRepository.class
+com\example\mystore\model\ProductEntity.class
+com\example\mystore\resource\ProductController.class
+com\example\mystore\service\impl\ProductServiceImpl.class
