@@ -45,7 +45,7 @@ public class ProductController {
 	
 	private ModelAndView getProductById(ProductEntity product) {
 		if (product == null) {
-			return new ModelAndView("detail").addObject(new ProductEntity());
+			return new ModelAndView("detail").addObject("product", new ProductEntity());
 		} else {
 	        return new ModelAndView("detail").addObject("product", product);
 		}
